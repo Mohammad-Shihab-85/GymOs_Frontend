@@ -17,7 +17,7 @@ function Login() {
     setLoading(true);
 
     try {
-      const response = await fetch('https://gymos-backend-rmnp.onrender.com/api/members/login', {
+      const response = await fetch('https://gymosbackend-production.up.railway.app/api/members/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
